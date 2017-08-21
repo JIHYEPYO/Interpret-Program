@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/textViewWPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="WPM :"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextWPM"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toRightOf="@+id/textViewWPM"
+            android:background="@color/colorGray"
+            android:ems="3"
+            android:hint="number"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:text="100" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onButtonStartClick"
+        android:text="START"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

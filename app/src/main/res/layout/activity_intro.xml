@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageViewLogoIcon"
+        android:background="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_intro_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_below="@+id/imageViewLogoIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageViewNcsLogo"
+        android:background="@drawable/ic_ncs_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_intro_margin"/>
+
+
+</RelativeLayout>

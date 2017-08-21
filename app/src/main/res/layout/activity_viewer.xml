@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewViewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@color/colorGray"
+        android:lineSpacingExtra="@dimen/modeTextView_line_spacing_extra"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/mode_text_size" />
+
+</LinearLayout>

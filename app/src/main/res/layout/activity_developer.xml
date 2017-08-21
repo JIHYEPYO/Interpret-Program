@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="4"
+    tools:context="com.ncslab.pyojihye.interpretprogram.Activity.LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutProgrammer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_developer_margin"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/programmer"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/programmer" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_toEndOf="@+id/programmer"
+            android:layout_toRightOf="@+id/programmer"
+            android:text="Programmer : PYO JIHYE\nComputer Engneering"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RelativeLayoutProgrammer"
+        android:layout_margin="@dimen/activity_developer_margin"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/professor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/professor" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_toLeftOf="@+id/professor"
+            android:layout_toStartOf="@+id/professor"
+            android:text="Professor : AN DONGHYEUK\nComputer Engineering"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutAdvisor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RelativeLayoutProfessor"
+        android:layout_margin="@dimen/activity_developer_margin"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/advisor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/advisor" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:layout_toEndOf="@+id/advisor"
+            android:layout_toRightOf="@+id/advisor"
+            android:text="Advisor : KIM SANGWON\n              JUNG JINHWA\nComputer Engineering"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutLab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RelativeLayoutAdvisor"
+        android:layout_margin="@dimen/activity_developer_margin"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/lab"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/network" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/lab"
+            android:layout_toStartOf="@+id/lab"
+            android:text="Lab : 1325, Engineering Building\n           1303, Engineering Building "
+            android:textAlignment="center"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
