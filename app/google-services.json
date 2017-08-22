@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:388080378526:android:74c99ff593ef6edb",
         "android_client_info": {
-          "package_name": "com.ncslab.pyojihye.interpretprogram"
+          "package_name": "com.example.pyojihye.interpretprogram"
         }
       },
       "oauth_client": [
@@ -18,12 +18,67 @@
           "client_id": "388080378526-dk2ku3iqjarocd4jm1kq7guth0g0f1iq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "package_name": "com.example.pyojihye.interpretprogram",
             "certificate_hash": "bfa14773c067338bbd8e6b5605464615ef5df6f6"
           }
         },
         {
           "client_id": "388080378526-8knmv3obrap88pc27a9eg3jlo9rn3a7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pyojihye.interpretprogram",
+            "certificate_hash": "f0092a3b06393b5555b63047cbb68d4543d29355"
+          }
+        },
+        {
+          "client_id": "388080378526-96pbbmc2pg481qi7tftqn7tl8jfossjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDnmH-rhiwRyoprFl_kMj6R0Ha8hRD-dQ"
+        },
+        {
+          "current_key": "AIzaSyCG2by75c9YoQlD5dyWUwD_oB-yxZj0j9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388080378526-96pbbmc2pg481qi7tftqn7tl8jfossjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388080378526:android:b73fa9db290150b3",
+        "android_client_info": {
+          "package_name": "com.ncslab.pyojihye.interpretprogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388080378526-dqkoj0e9uraapcqaste036aah1sh2u2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "bfa14773c067338bbd8e6b5605464615ef5df6f6"
+          }
+        },
+        {
+          "client_id": "388080378526-ks3bd1u2ff4hnqmrr0gu22hek7ahjmcj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.ncslab.pyojihye.interpretprogram",
