@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "388080378526-odj57i8lp14sr2uqergohu3ndmmp9ni1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pyojihye.interpretprogram",
+            "certificate_hash": "21573e81300e975d964f0d083e9de4e93f4c1f5b"
+          }
+        },
+        {
           "client_id": "388080378526-dk2ku3iqjarocd4jm1kq7guth0g0f1iq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -70,6 +78,70 @@
       },
       "oauth_client": [
         {
+          "client_id": "388080378526-ugf277m2db5gg14rhoc864v5gjd0vijd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "9736e8ee19a4574c491a1dc31d780d9e1bfddc1a"
+          }
+        },
+        {
+          "client_id": "388080378526-qmm73ecqka0u5ji21493fn04bi11ppjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "72df29e2ccd1ecab51194c7fad24eaa1889b3b59"
+          }
+        },
+        {
+          "client_id": "388080378526-k6n61e1j6k257biuo1j3ajte8mr5ncm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "8512d89ea1c1313fd46d13564072c02ee58d3302"
+          }
+        },
+        {
+          "client_id": "388080378526-pfv39e00emgrig0mu59kfbusifgaupk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "88786a965e66c9039a42e2b5d796c8ee9167872b"
+          }
+        },
+        {
+          "client_id": "388080378526-p2n1568qnibqkdutqrptq9o80mggrkfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "bdb5fd9d75e5f14c741a2b925ea96979efa3cd22"
+          }
+        },
+        {
+          "client_id": "388080378526-4v7tm2krv8u7h0fq6ufurv5fku5jafa1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "0b21cb0705c65fbe5baa11c9efc6480bc6bc50a4"
+          }
+        },
+        {
+          "client_id": "388080378526-bps3frbbqbv6t9e7b8bjj4ake27t7nan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "72923849a681c1103ddf5937e3e812c8f09fe2b9"
+          }
+        },
+        {
+          "client_id": "388080378526-qgika7p75sehln378t5j6q1b7cj83c84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpretprogram",
+            "certificate_hash": "21573e81300e975d964f0d083e9de4e93f4c1f5b"
+          }
+        },
+        {
           "client_id": "388080378526-dqkoj0e9uraapcqaste036aah1sh2u2l.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -83,6 +155,125 @@
           "android_info": {
             "package_name": "com.ncslab.pyojihye.interpretprogram",
             "certificate_hash": "f0092a3b06393b5555b63047cbb68d4543d29355"
+          }
+        },
+        {
+          "client_id": "388080378526-96pbbmc2pg481qi7tftqn7tl8jfossjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDnmH-rhiwRyoprFl_kMj6R0Ha8hRD-dQ"
+        },
+        {
+          "current_key": "AIzaSyCG2by75c9YoQlD5dyWUwD_oB-yxZj0j9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388080378526-96pbbmc2pg481qi7tftqn7tl8jfossjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388080378526:android:d81d7a40dbbfbac7",
+        "android_client_info": {
+          "package_name": "com.ncslab.pyojihye.interpret"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388080378526-5b7lm5vk9h23rakia45neje3sumbrsga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "f0092a3b06393b5555b63047cbb68d4543d29355"
+          }
+        },
+        {
+          "client_id": "388080378526-omejsfjq4nae6sfvrfba6ki8msf244ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "bfa14773c067338bbd8e6b5605464615ef5df6f6"
+          }
+        },
+        {
+          "client_id": "388080378526-bhl27ivjakh16dvas4vbsjhrbobreit3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "21573e81300e975d964f0d083e9de4e93f4c1f5b"
+          }
+        },
+        {
+          "client_id": "388080378526-6utkiu81cpusicnnkibg06o32pqdbm92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "72923849a681c1103ddf5937e3e812c8f09fe2b9"
+          }
+        },
+        {
+          "client_id": "388080378526-met76dk86f1qa81l3pf0taipiqpbf8u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "0b21cb0705c65fbe5baa11c9efc6480bc6bc50a4"
+          }
+        },
+        {
+          "client_id": "388080378526-jjlsebtelr8fj99e38ji154r8v9nu6gh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "bdb5fd9d75e5f14c741a2b925ea96979efa3cd22"
+          }
+        },
+        {
+          "client_id": "388080378526-ur1q3tt5sj4chaq9lvauulqdu0os3hub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "88786a965e66c9039a42e2b5d796c8ee9167872b"
+          }
+        },
+        {
+          "client_id": "388080378526-nf7pq4peak64g3rt7t72cvu6l77t5r6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "8512d89ea1c1313fd46d13564072c02ee58d3302"
+          }
+        },
+        {
+          "client_id": "388080378526-t20ujb8d4jm6vvpe1hcsh9npnsfk9tjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "72df29e2ccd1ecab51194c7fad24eaa1889b3b59"
+          }
+        },
+        {
+          "client_id": "388080378526-2gpr8hekq2ap81121jd9dcd0lq77t2rq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncslab.pyojihye.interpret",
+            "certificate_hash": "9736e8ee19a4574c491a1dc31d780d9e1bfddc1a"
           }
         },
         {

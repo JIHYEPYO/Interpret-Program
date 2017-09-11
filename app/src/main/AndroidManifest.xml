@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ncslab.pyojihye.interpretprogram">
+    package="com.ncslab.pyojihye.interpret">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.IntroActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.IntroActivity"
             android:theme="@style/NoTitle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,45 +22,45 @@
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.LoginActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.LoginActivity"
             android:theme="@style/NoTitle">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.PathActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.PathActivity"
             android:theme="@style/AppTheme">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.SelectActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.SelectActivity"
             android:theme="@style/AppTheme">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.TrainingOptionActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.TrainingOptionActivity"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.TrainingActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.TrainingActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.ViewerOptionActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.ViewerOptionActivity"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.ViewerActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.ViewerActivity"
             android:theme="@style/AppTheme">
         </activity>
 
         <activity
-            android:name="com.ncslab.pyojihye.interpretprogram.Activity.DeveloperActivity"
+            android:name="com.ncslab.pyojihye.interpret.Activity.DeveloperActivity"
             android:theme="@style/AppTheme">
         </activity>
     </application>

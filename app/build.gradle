@@ -31,7 +31,7 @@ android {
         versionProps.store(versionPropsFile.newWriter(), null)
 
         defaultConfig {
-            applicationId "com.ncslab.pyojihye.interpretprogram"
+            applicationId "com.ncslab.pyojihye.interpret"
             minSdkVersion 15
             targetSdkVersion 25
             versionCode versionNumber
